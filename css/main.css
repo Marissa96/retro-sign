@@ -33,11 +33,11 @@ svg {
 
 .btn path:last-child:active {
   transform: scale(1, 1);
-  fill: #ff6600;
+  fill: #f60;
 }
 
 .button path:last-child {
-  fill: #ff6600;
+  fill: #f60;
 }
 
 .btn:active {
@@ -66,37 +66,37 @@ svg {
 }
 
 .engaged path:nth-child(1) {
-  fill: #ff6600;
+  fill: #f60;
   transition: all 1s ease;
   transition-delay: .5s;
 }
 
 .engaged path:nth-child(2) {
-  fill: #ff6600;
+  fill: #f60;
   transition: all 1s ease;
   transition-delay: .75s;
 }
 
 .engaged path:nth-child(3) {
-  fill: #ff6600;
+  fill: #f60;
   transition: all 1s ease;
   transition-delay: 1s;
 }
 
 .engaged path:nth-child(4) {
-  fill: #ff6600;
+  fill: #f60;
   transition: all 1s ease;
   transition-delay: 1s;
 }
 
 .engaged path:nth-child(5) {
-  fill: #ff6600;
+  fill: #f60;
   transition: all 1s ease;
   transition-delay: .75s;
 }
 
 .engaged path:nth-child(6) {
-  fill: #ff6600;
+  fill: #f60;
   transition: all 1s ease;
   transition-delay: .5s;
 }
