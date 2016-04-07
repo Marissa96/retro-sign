@@ -31,6 +31,72 @@ svg {
   cursor: pointer;
 }
 
+.btn path:last-child:active {
+  transform: scale(1, 1);
+  fill: #ff6600;
+}
+
+.button path:last-child {
+  fill: #ff6600;
+}
+
+.btn:active {
+  transform: scale(1, 1);
+}
+
 .lines path {
   stroke-dasharray: 0, 480;
+}
+
+.is-pressed path {
+  animation: lines 1s forwards;
+}
+
+@keyframes lines {
+
+  0% {
+
+    stroke-dasharray: 0, 480;
+  }
+
+  100% {
+
+    stroke-dasharray: 500, 480;
+  }
+}
+
+.engaged path:nth-child(1) {
+  fill: #ff6600;
+  transition: all 1s ease;
+  transition-delay: .5s;
+}
+
+.engaged path:nth-child(2) {
+  fill: #ff6600;
+  transition: all 1s ease;
+  transition-delay: .75s;
+}
+
+.engaged path:nth-child(3) {
+  fill: #ff6600;
+  transition: all 1s ease;
+  transition-delay: 1s;
+}
+
+.engaged path:nth-child(4) {
+  fill: #ff6600;
+  transition: all 1s ease;
+  transition-delay: 1s;
+}
+
+.engaged path:nth-child(5) {
+  fill: #ff6600;
+  transition: all 1s ease;
+  transition-delay: .75s;
+}
+
+.engaged path:nth-child(6) {
+  fill: #ff6600;
+  transition: all 1s ease;
+  transition-delay: .5s;
 }
